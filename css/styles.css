@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, ::before::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: beige;
+}
+
+/* Header */
+
+.header {
+    margin: 0 1rem 1rem;
+}
+
+    .header h1 {
+        text-align: center;
+        font-size: clamp(24px,11vw,200px);
+        text-shadow: 2px 2px rgb(248, 157, 190);
+        margin: 0 0 -2.5%;
+    } 
+
+    .header p {
+        font-family: 'Rubik', sans-serif;
+        font-size: clamp(10px,3.7vw,100px);
+        font-weight: bold;
+        color: rgb(133 246 202);
+        text-shadow: 0.3vw 0.3vw 1px rgba(0, 0, 0, 0.687);
+        margin: 0;
+        text-align: end;
+    }
+
+    .header span {
+        font-size: clamp(8px,2.5vw,100px);
+    }
+
+    .header__h1 {
+        background-color: rgb(133 246 202);
+        border-radius: 50%;    
+    }
+
+
